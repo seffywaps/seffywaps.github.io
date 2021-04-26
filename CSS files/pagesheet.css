@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background-image: url(../Images/Back1.jpg);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100vh;
+}
+.border{
+	border: 6px;
+	width: 50px;
+	height: 50px;
+}
+.nav_bar{
+    height: 100px;
+    width: auto;
+    background: rgba(0,0,0,0.4 );
+}
+.nav_bar ul{
+	float: right;
+	margin-right: 70px;
+    margin-top: -3.9%;
+    padding: 20px;
+}
+.nav_bar ul li{
+	list-style: none;
+	margin: 0 10px;
+	display: inline-block;
+	line-height: 1px;	
+}
+.nav_bar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 5px 13px;
+	font-family: 'Plateia';
+	transition: .2s;
+}
+.nav_bar ul li a:hover{
+	background: rgba(0, 140, 255, 0.301);
+	border-radius: 4px;
+}
+.nav_bar h2{
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 200%;
+    font-family: 'Plateia';
+}
+.favorites{
+	padding-top: 4%;
+}
+.aboutimg_1{
+	position: relative;
+	margin-left: 18%;
+	display: flex;
+
+}
+.aboutimg_1 img{
+	width: 20%;
+	margin: 40px;
+	border: 8px solid rgb(221, 221, 221);
+	border-radius: 5px;
+}
+.title{
+	display: flex;
+	margin-left: 26%;
+}
+.title h2{
+	text-align: center;
+	color: rgb(39, 38, 38);
+	-webkit-text-stroke: 1px rgb(255, 255, 255);
+	padding-right: 322px;
+	font-family: 'Plateia';
+}
+.caption{
+	display: flex;
+	margin-left: 25%;
+}
+.caption h2{
+	text-align: center;
+	color: rgb(39, 38, 38);
+	-webkit-text-stroke: 1px rgb(255, 255, 255);
+	padding-right: 189px;
+	font-family: 'Plateia';
+}
+
+
+
