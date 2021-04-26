@@ -3,6 +3,7 @@
 	margin: 0;
     font-family: "Plateia";
 }
+@media screen and (max-width:1920px){
 body{
     background-image: url(../Images/Back1.jpg);
 	background-size: cover;
@@ -178,4 +179,5 @@ i{
 }
 .nav_left3 .favo{
     width: 95%;
+}
 }
