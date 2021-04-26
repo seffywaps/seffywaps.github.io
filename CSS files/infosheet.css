@@ -9,9 +9,7 @@ body{
 	background-position: center center;
 	width: 100%;
 	height: 100vh;
-}
-@media only screen and (max-width:1920px){
-	
+}	
 .container{
     display: flex;
     align-items: center;
@@ -181,4 +179,4 @@ i{
 .nav_left3 .favo{
     width: 95%;
 }
-}
+
