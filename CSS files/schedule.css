@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2a2a2a, #212121, #191919, #010002);
+}
+.gradient{
+    position: relative;
+    margin: 80px auto 0;
+    width: 1000px;
+    height: 650px;
+    background: rgb(51, 47, 47);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+h1{
+    position: relative;
+    font-family: 'Plateia';
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px ;
+}
+h2{
+    position: relative;
+    font-family: 'Plateia';
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-top: -35px;
+    margin-bottom: -15px;
+    font-size: 15px;
+}
+
+.gradient::before,
+.gradient::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#f00);
+    background-size: 400% 400%;
+    width: calc(100% + 6px);
+    height: calc(100% + 6px);
+    border-radius: 20px;
+    z-index: -1;
+    animation: animate 3s ease alternate infinite;
+}
+.gradient::after{
+    filter: blur(20px);
+}
+/*** animation ***/
+@keyframes animate{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+
+    }
+    0%{
+        background-position: 0% 50%;
+}
+}
+table, tr, td{
+    border: 2px solid rgb(107, 95, 95);
+    border-collapse: collapse;
+}
+td{
+    padding: 3px;
+    text-align: center;
+}
+.sub1{
+    background-color: rgba(100, 148, 237, 0.856);
+}
+.sub2 {
+    background-color: rgba(216, 10, 235, 0.753);
+}
+.sub3{
+    background-color: rgba(40, 185, 95, 0.74);
+}
+.sub4 {
+    background-color: rgba(243, 7, 7, 0.712);
+}
+.sub5{
+    background-color: rgba(235, 175, 8, 0.76);
+}
+.sub6 {
+    background-color: rgba(88, 7, 155, 0.733);
+}
+.sub7{
+    background-color: rgb(175, 172, 6);
+}
+.sub8 {
+    background-color: rgb(80, 80, 80);
+}
+.sub9 {
+    background-color: rgba(17, 110, 14, 0.705);
+}
+.tables{
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 17px;
+}
+tr, td{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
